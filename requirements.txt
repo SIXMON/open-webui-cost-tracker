@@ -1,3 +1,7 @@
+cachetools
+open-webui
+requests
+tiktoken
 streamlit
 plotly
 pandas
