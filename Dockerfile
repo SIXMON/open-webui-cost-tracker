@@ -6,4 +6,4 @@ COPY requirements.txt /app/
 
 RUN pip install -r requirements.txt
 
-CMD ["streamlit", "run", "streamlit_app.py", "--server.port=8080", "browser.gatherUsageStats=false"]
+CMD ["streamlit", "run", "streamlit_app.py",  "--server.port=8080", "browser.gatherUsageStats=false"]
